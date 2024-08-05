@@ -6,33 +6,32 @@
     <title>遇见你，足以浪漫</title>
     <!-- 引入Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- 引入Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <!-- 引入Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- 引入自定义CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="bg-success text-white text-center py-5">
-        <h1><i class="fas fa-heart"></i> 遇见你，足以浪漫</h1>
-        <p>Hi，大宝！</p>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-book"></i> 足以浪漫</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#photos"><i class="fas fa-camera"></i> 照片</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#diary"><i class="fas fa-pen"></i> 日记</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#map"><i class="fas fa-map-marker-alt"></i> 地图</a></li>
-                </ul>
+    <header class="apple-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">遇见你，足以浪漫</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#photos">照片</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#diary">日记</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#map">地图</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <div class="container text-center">
+            <h1 class="display-4">Hi，大宝！</h1>
+            <p class="lead">一起回顾我们美好的回忆。</p>
         </div>
-    </nav>
-    <main class="container my-4">
+    </header>
+    <main class="container my-5">
         <section id="photos">
             <h2 class="text-center">照片</h2>
             <div class="row">
